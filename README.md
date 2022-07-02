@@ -32,3 +32,13 @@ type Block string
 - ❗Please approach this as you would a real-world production problem. Apply the same quality expectations as you would when submitting an ideal PR to your own team.
 - ❗When submitting: please include any necessary details on the implementation, assumptions, time complexity or other relevant info to share.
 - If anything remains unclear about this problem don’t hesitate to ask your Talent team associate who can get follow-ups from engineering.
+
+## Candidate comments
+- I implemented the description as simply as possible, as I'm not a Go programmer. I assume the
+  genesis block comes `fulfilled`. There's a linear scan to find the minHeight h.
+- I spent about two hours, mostly reading the description, and online Go docs
+- Golang was straightforward, I only got stalled by a few things, like the lack of a tuple type
+  despite multiple value returns, the generic `for` iterator rather than `while`, etc.
+- As I'm not a Golang programmer, I used simple locks to make the read-and-modify access safe.
+  I suspect there are better ways.
+- Not much testing, just 2 hours
